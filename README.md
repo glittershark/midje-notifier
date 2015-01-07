@@ -1,6 +1,6 @@
 # midje-notifier
 
-Libnotify (and, soon, Growl) output for [Midje][midje]
+Libnotify and OS X Notification output for [Midje][midje]
 
 [midje]: http://github.com/marick/midje
 
@@ -17,10 +17,13 @@ user=> (use 'midje.notifier)
 user=> (notify-me)
 ```
 
-Midje-notifier currently requires that you have the `notify-send` binary
-installed on your system, which comes standard with libnotify. It also only
-works on Linux, because that's what I'm running. OS X support is coming soon,
-though! (as soon as I can get my hands on a Mac to test with).
+You can then work using the standard Midje workflow.
+
+Midje-notifier currently requires that you have either the `notify-send` binary
+on Linux or `terminal-notifier` on OS X somewhere in your PATH. The former comes
+standard with libnotify, and the latter can be installed [here][tn].
+
+[tn]: https://github.com/alloy/terminal-notifier
 
 ## License
 
