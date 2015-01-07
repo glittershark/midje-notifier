@@ -18,9 +18,9 @@ user=> (notifyme)
 ```
 
 Midje-notifier currently requires that you have the `notify-send` binary
-installed on your system, which comes standard with libnotify. It currently only
-works on Linux because that's what I'm running, but OS X support is coming soon
-(as soon as I can get my hands on a Mac to test with).
+installed on your system, which comes standard with libnotify. It also only
+works on Linux, because that's what I'm running. OS X support is coming soon,
+though! (as soon as I can get my hands on a Mac to test with).
 
 ## License
 
