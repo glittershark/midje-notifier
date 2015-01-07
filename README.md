@@ -1,6 +1,6 @@
 # midje-notifier
 
-Growl and libnotify output for [Midje][midje]
+Libnotify (and, soon, Growl) output for [Midje][midje]
 
 [midje]: http://github.com/marick/midje
 
