@@ -14,7 +14,7 @@ In the REPL, prior to calling `midje.repl/autotest`, run the following
 
 ```
 user=> (use 'midje.notifier)
-user=> (notifyme)
+user=> (notify-me)
 ```
 
 Midje-notifier currently requires that you have the `notify-send` binary
