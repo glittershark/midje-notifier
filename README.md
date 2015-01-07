@@ -8,7 +8,7 @@ Growl and libnotify output for [Midje][midje]
 
 Add the following to your `:dev` `:dependencies` in `project.clj`:
 
-`[midje-notifier "0.1.0"]`
+[![Clojars Project](http://clojars.org/midje-notifier/latest-version.svg)](http://clojars.org/midje-notifier)
 
 In the REPL, prior to calling `midje.repl/autotest`, run the following
 
