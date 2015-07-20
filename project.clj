@@ -1,4 +1,4 @@
-(defproject midje-notifier "0.2.0"
+(defproject midje-notifier "0.2.1"
   :description "Growl and libnotify output for Midje"
   :url "http://github.com/glittershark/midje-notifier"
   :license {:name "MIT License"
