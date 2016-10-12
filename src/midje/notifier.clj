@@ -12,7 +12,7 @@
 (defmacro notify-send [title body]
   (case notification-type
     :notify-send       `(sh "notify-send" ~title ~body)
-    :terminal-notifier `(sh ":terminal-notifier" "-message" ~body "-title" ~title)))
+    :terminal-notifier `(sh "terminal-notifier" "-message" ~body "-title" ~title)))
 
 (defn send-notifications []
   (let [{passes :midje-passes failures :midje-failures}
