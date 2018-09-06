@@ -27,6 +27,6 @@ standard with libnotify, and the latter can be installed [here][tn].
 
 ## License
 
-Copyright © 2015 Griffin Smith
+Copyright © 2018 Griffin Smith
 
 Distributed under the MIT License
